@@ -392,14 +392,14 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  font-size: .75em;
+  font-size: .75rem;
 }
 
 footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
